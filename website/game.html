@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+  <title>Dinosaur</title>
+
+</head>
+<body>
+  <div class="titlebox">
+    Dinosource
+    <marquee direction=left scrolldelay="5"><img src="running.png" id="logo"></marquee>
+  </div>
+<div class="navigation">
+<ul>
+  <li>Home</li>
+  <li>Photos</li>
+  <li>Information</li>
+  <li>
+    <a href="funfacts.html">Fun Facts</a>
+  </li>
+  <li>Museums</li>
+  <li><a href="http://nhm.ac.uk">Natural History Museum</a></li>
+</ul>
+</div>
+<div class="container">
+  <div class="minipics">
+    <button id="lakedino" type="button"></button>
+    <script>
+        document.getElementById('lakedino').onclick = function() {
+            document.getElementById('picdescription').innerText ='This is two long necked dinosaurs in a lake';
+        }
+    </script>
+  </div>
+  <div id="picdescription">
+  </div>
+</div>
+
+</body>
+</html>
+
+<scrpit>
+</script>

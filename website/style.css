@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  background-image: url("minidinos.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Shadows Into Light;
+}
+p1 {
+  font-size: 22px;
+}
+.titlebox {
+  height: 100px;
+  background-color:#ffee00;
+  font-family: Shadows Into Light;
+  color: #ffc000;
+  font-size: 80px;
+  padding: 20px;
+  width: 100%;
+  display:flex;
+  padding-left: 200px
+}
+#logo{
+  height:80px;
+}
+.navigation{
+  height: 70px;
+  font-size: 20px;
+}
+li{
+  display:inline-block;
+  padding-right: 80px;
+}
+li:hover{
+  color:purple;
+  font-size:50px;
+  transition-duration:3s;
+}
+.container{
+  height:800px;
+  display:grid;
+  grid-template-columns: 1fr 5fr;
+}
+.minipics{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height:inherit;
+  background-color: #f23599;
+}
+#picdescription{
+  height:inherit;
+  background-color: #ffee0282;
+  background-image: url("dinohead.png");
+  background-size: contain;
+  background-position: center;
+  font-size: 30px;
+  color: #00ba54;
+}
+
+.facts {
+  height: 150px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 50px;
+  opacity: 0.5;}
+#one{background-color: #0e7239;}
+#two{background-color: #3bc3aa;}
+#three{background-color: #ce2c98;}
+
+#lakedino{
+  height: 160px;
+  width: 230px;
+  background-image: url("picture.png");
+  background-size: cover;
+  background-position: top;
+}
+
+p2 {
+  padding-top: 20%;
+}
